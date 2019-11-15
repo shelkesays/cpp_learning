@@ -35,7 +35,7 @@ private:
 
     void insert(int key, Node *leaf)
     {
-        if (key < leaf->data)
+        if (key <= leaf->data)
         {
             if (leaf->left != NULL)
             {
@@ -46,7 +46,7 @@ private:
                 leaf->left = Node::createNode(key);
             }
         }
-        else if (key >= leaf->data)
+        else if (key > leaf->data)
         {
             if (leaf->right != NULL)
             {
@@ -122,16 +122,18 @@ int main()
     BinaryTree tree = BinaryTree();
 
     tree.insert(100);
-    tree.insert(10);
     tree.insert(101);
-    tree.insert(1);
     tree.insert(50);
+    tree.insert(50);
+    tree.insert(10);
+    tree.insert(1);
 
 
     Node *found = tree.search(10);
     Node *notfound = tree.search(120);
 
-    std::cout << found->left->data << found->right->data << std::endl;
+    std::cout << "Address of left node: " << found->left << std::endl;
+    std::cout << "Address of right node: " << found->right << std::endl;
 
     std::cout << notfound << std::endl;
 
