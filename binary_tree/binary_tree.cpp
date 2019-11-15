@@ -135,7 +135,7 @@ int main()
     std::cout << "Address of left node: " << found->left << std::endl;
     std::cout << "Address of right node: " << found->right << std::endl;
 
-    std::cout << notfound << std::endl;
+    std::cout << (notfound == NULL) << std::endl;
 
     tree.destroy_tree();
 
