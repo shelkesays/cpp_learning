@@ -1,3 +1,5 @@
+// Solution for http://cslibrary.stanford.edu/109/TreeListRecursion.pdf
+
 #include <iostream>
 
 class Node
@@ -174,8 +176,6 @@ int main()
     Node *head = tree.treeToList();
 
     tree.printList(head);
-
-    // tree.destroy_tree();
 
     return 0;
 }
