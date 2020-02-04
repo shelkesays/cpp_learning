@@ -9,3 +9,8 @@ Training material for C++ programming language
 ## Books
 1. Accelerated C++: http://libertar.io/lab/wp-content/uploads/2017/03/Andrew-Koening-and-Barbara-E.-Moo-Accelerated-C-.pdf
 2. C++ Primer: https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113
+
+## Problems:
+1. Project Euler Problems: https://projecteuler.net/archives
+
+`NOTE: Solution to the project Euler problems may not be posted.`
