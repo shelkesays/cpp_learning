@@ -1,4 +1,4 @@
-# cpp_training
+# Learning material and examples of C++
 Training material for C++ programming language
 
 ## Courses:
